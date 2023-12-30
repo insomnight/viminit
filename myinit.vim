@@ -28,3 +28,6 @@ let g:rainbow_guifgs = ['RoyalBlue3', 'DarkOrange3', 'DarkOrchid3', 'FireBrick']
 
 let g:rainbow_ctermfgs = ['lightblue', 'lightgreen', 'yellow', 'red', 'magenta','cyan']
 
+" keyborad mapping
+cnoremap <C-p> <Up>
+cnoremap <C-n> <Down>
