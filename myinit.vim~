@@ -10,7 +10,6 @@ call plug#begin()
 Plug 'junegunn/fzf.vim'
 Plug 'junegunn/fzf',{ 'do': { -> fzf#install() } }
 Plug 'frazrepo/vim-rainbow'
-Plug 'tpope/vim-commentary'
 call plug#end()
 set grepprg=rg\ --vimgrep\ --smart-case\ --follow
 set shiftwidth=4
