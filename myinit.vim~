@@ -4,6 +4,8 @@ set hidden
 let $PWD=getcwd()
 set path+=$PWD\\**,C:\\usr\\include\\**
 set nocp
+set wildmenu
+set wildmode=full
 filetype plugin on
 " vim-plugin manage
 call plug#begin()

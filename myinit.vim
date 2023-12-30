@@ -6,6 +6,7 @@ set path+=$PWD\\**,C:\\usr\\include\\**
 set nocp
 set wildmenu
 set wildmode=full
+set history=200
 filetype plugin on
 " vim-plugin manage
 call plug#begin()
