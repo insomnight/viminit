@@ -41,3 +41,6 @@ noremap <Up> <Nop>
 noremap <Down> <Nop>
 noremap <Left> <Nop>
 noremap <Right> <Nop>
+
+noremap <Leader>n nzz
+noremap <Leader>N Nzz
