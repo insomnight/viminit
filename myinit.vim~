@@ -8,6 +8,7 @@ set wildmenu
 set wildmode=full
 set history=200
 filetype plugin on
+runtime macros/matchit.vim
 " vim-plugin manage
 call plug#begin()
 Plug 'junegunn/fzf.vim'

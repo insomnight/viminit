@@ -22,6 +22,8 @@ set softtabstop=4
 set expandtab
 set autoindent
 set cindent
+set ignorecase
+set smartcase
 " vim-rainbow config
 au FileType c call rainbow#load()
 
