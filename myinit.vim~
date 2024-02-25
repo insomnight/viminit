@@ -48,3 +48,6 @@ noremap <Right> <Nop>
 
 noremap <Leader>n nzz
 noremap <Leader>N Nzz
+
+nnoremap <silent> <C-L> :<C-U>nohlsearch<CR><C-L>
+
