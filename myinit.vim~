@@ -5,6 +5,7 @@ let $PWD=getcwd()
 set path+=$PWD\\**,C:\\usr\\include\\**
 set nocp
 set wildmenu
+set hlsearch
 set wildmode=full
 set history=200
 filetype plugin on
