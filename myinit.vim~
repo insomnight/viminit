@@ -6,6 +6,7 @@ set path+=$PWD\\**,C:\\usr\\include\\**
 set nocp
 set wildmenu
 set hlsearch
+set incsearch
 set wildmode=full
 set history=200
 filetype plugin on
@@ -15,6 +16,7 @@ call plug#begin()
 Plug 'junegunn/fzf.vim'
 Plug 'junegunn/fzf',{ 'do': { -> fzf#install() } }
 Plug 'frazrepo/vim-rainbow'
+Plug 'kana/vim-textobj-lastpat'
 call plug#end()
 set grepprg=rg\ --vimgrep\ --smart-case\ --follow
 set shiftwidth=4
