@@ -16,7 +16,6 @@ call plug#begin()
 Plug 'junegunn/fzf.vim'
 Plug 'junegunn/fzf',{ 'do': { -> fzf#install() } }
 Plug 'frazrepo/vim-rainbow'
-Plug 'kana/vim-textobj-lastpat'
 call plug#end()
 set grepprg=rg\ --vimgrep\ --smart-case\ --follow
 set shiftwidth=4
