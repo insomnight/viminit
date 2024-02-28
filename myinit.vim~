@@ -52,4 +52,8 @@ noremap <Leader>N Nzz
 
 nnoremap <silent> <C-L> :<C-U>nohlsearch<CR><C-L>
 
-source patterns/visual-star.vim
+nnoremap & :&&<CR>
+xnoremap & :&&<CR>
+
+" source other vim
+source C:/viminit/patterns/visual-star.vim
