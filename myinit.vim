@@ -52,3 +52,4 @@ noremap <Leader>N Nzz
 
 nnoremap <silent> <C-L> :<C-U>nohlsearch<CR><C-L>
 
+source C:/viminit/patterns/visual-star.vim
