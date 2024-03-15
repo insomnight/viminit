@@ -57,3 +57,4 @@ xnoremap & :&&<CR>
 
 " source other vim
 source C:/viminit/patterns/visual-star.vim
+source C:/viminit/substitution/qargs.vim

@@ -26,6 +26,7 @@ set autoindent
 set cindent
 set ignorecase
 set smartcase
+set infercase
 " vim-rainbow config
 au FileType c call rainbow#load()
 
