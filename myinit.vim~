@@ -1,3 +1,7 @@
+" source other vim
+source C:/viminit/patterns/visual-star.vim
+source C:/viminit/substitution/qargs.vim
+
 set number
 set nocompatible
 set hidden
@@ -56,6 +60,3 @@ nnoremap <silent> <C-L> :<C-U>nohlsearch<CR><C-L>
 nnoremap & :&&<CR>
 xnoremap & :&&<CR>
 
-" source other vim
-source C:/viminit/patterns/visual-star.vim
-source C:/viminit/substitution/qargs.vim
