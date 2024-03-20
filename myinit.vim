@@ -30,8 +30,11 @@ set autoindent
 set cindent
 set ignorecase
 set smartcase
-set noundofile
 set nobackup
+
+set undodir=C:/vim_undo_dir
+set undofile
+
 " set infercase
 " vim-rainbow config
 au FileType c call rainbow#load()
