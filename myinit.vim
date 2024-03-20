@@ -62,3 +62,6 @@ nnoremap <silent> <C-L> :<C-U>nohlsearch<CR><C-L>
 nnoremap & :&&<CR>
 xnoremap & :&&<CR>
 
+inoremap <c-u> <c-g>u<c-u>
+inoremap <c-w> <c-g>u<c-w>
+
