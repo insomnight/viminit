@@ -1,7 +1,3 @@
-" source other vim
-source C:/viminit/patterns/visual-star.vim
-source C:/viminit/substitution/qargs.vim
-
 set number
 set nocompatible
 set hidden
@@ -13,10 +9,8 @@ set hlsearch
 set incsearch
 set wildmode=full
 set history=200
-filetype plugin on
-runtime macros/matchit.vim
 " vim-plug setting file: plugins.vim
-source C:/viminit/plugins.vim
+source ./plugins.vim
 set grepprg=rg\ --vimgrep\ --smart-case\ --follow
 set shiftwidth=4
 set tabstop=4

@@ -2,6 +2,9 @@
 source C:/viminit/patterns/visual-star.vim
 source C:/viminit/substitution/qargs.vim
 
+filetype plugin on
+runtime macros/matchit.vim
+
 " vim-plugin manage
 call plug#begin()
 Plug 'junegunn/fzf.vim'
