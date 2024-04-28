@@ -15,12 +15,8 @@ set wildmode=full
 set history=200
 filetype plugin on
 runtime macros/matchit.vim
-" vim-plugin manage
-call plug#begin()
-Plug 'junegunn/fzf.vim'
-Plug 'junegunn/fzf',{ 'do': { -> fzf#install() } }
-Plug 'frazrepo/vim-rainbow'
-call plug#end()
+" vim-plug setting file: plugins.vim
+source C:/viminit/plugins.vim
 set grepprg=rg\ --vimgrep\ --smart-case\ --follow
 set shiftwidth=4
 set tabstop=4
@@ -34,14 +30,6 @@ set nobackup
 
 set undodir=C:/vim_undo_dir
 set undofile
-
-" set infercase
-" vim-rainbow config
-au FileType c call rainbow#load()
-
-let g:rainbow_guifgs = ['RoyalBlue3', 'DarkOrange3', 'DarkOrchid3', 'FireBrick']
-
-let g:rainbow_ctermfgs = ['lightblue', 'lightgreen', 'yellow', 'red', 'magenta','cyan']
 
 " keyborad mapping
 cnoremap <C-p> <Up>
