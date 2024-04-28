@@ -4,7 +4,10 @@ source ./plugins.vim
 " vim setting file: configs.vim
 source ./configs.vim
 
-" keyborad mapping
+" vim setting function file: functions.vim
+source ./functions.vim
+
+" keyborad mapping 
 cnoremap <C-p> <Up>
 cnoremap <C-n> <Down>
 nnoremap <silent> [b :bprevious<CR>
