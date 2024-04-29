@@ -1,6 +1,6 @@
 " source other vim
-source C:/viminit/patterns/visual-star.vim
-source C:/viminit/substitution/qargs.vim
+source $VIMINIT/patterns/visual-star.vim
+source $VIMINIT/substitution/qargs.vim
 
 filetype plugin on
 runtime macros/matchit.vim
@@ -9,6 +9,5 @@ runtime macros/matchit.vim
 call plug#begin()
 Plug 'junegunn/fzf.vim'
 Plug 'junegunn/fzf',{ 'do': { -> fzf#install() } }
-Plug 'frazrepo/vim-rainbow'
 call plug#end()
 
